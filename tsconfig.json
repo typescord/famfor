@@ -9,5 +9,5 @@
 		"lib": ["ESNext"],
 		"outDir": "build"
 	},
-	"include": ["src/**/*.ts", "src/**/__tests__/*.ts"]
+	"include": ["src/**/*.ts"]
 }
