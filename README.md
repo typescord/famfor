@@ -24,7 +24,7 @@ Else, if the `value` is a `Readable`, the `size` **should** be specified (if you
 
 If the `type` is present, it will always be put (even if the `filename` is not present).
 
-You can send queries via HTTP clients that support headers setting `stream.Readable` stream as body.
+You can send queries via HTTP clients that support setting `stream.Readable` stream as body.
 
 Let's take a look at a minimal example with [Got](https://github.com/sindresorhus/got) :
 
@@ -47,11 +47,11 @@ fd.append('yet_another_field', JSON.stringify({ content: "eééè'`e" }), { type
 console.log(fd.length);
 
 got
-	.post('https://example.com/', {
-		body: fd.stream, // set internal stream as request body
-		headers: fd.headers, // contains Content-Type and optionally Content-Length (see constructor's `contentLengthHeader` option)
-	})
-	.text()
-	.then(console.log)
-	.catch(console.error);
+  .post('https://example.com/', {
+    body: fd.stream, // set internal stream as request body
+    headers: fd.headers, // contains Content-Type and optionally Content-Length (see constructor's `contentLengthHeader` option)
+  })
+  .text()
+  .then(console.log)
+  .catch(console.error);
 ```
