@@ -126,6 +126,7 @@ export class FormData {
 		}
 
 		let type = options.type;
+
 		if (filename) {
 			filename = basename(filename);
 			type ??= lookup(filename) || DEFAULT_CONTENT_TYPE;
