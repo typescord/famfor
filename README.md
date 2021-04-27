@@ -17,7 +17,7 @@ $ yarn add @typescord/famfor
 Each FormData instance allows you to read its data from `stream.Readable` stream,
 just use `FormData#stream` for that.
 
-A `value` is considered as file if it's a `ReadStream` or if it has a `filename`.
+A `value` is considered as a file if it's a `ReadStream` or if it has a `filename`.
 When the `value` is a `ReadStream`, the `size` can be omitted, in this case, the `size`
 will be retrieved from the file system using `fs.statSync`.
 Else, if the `value` is a `Readable`, the `size` **should** be specified (if you want to have a correct length).
@@ -26,7 +26,7 @@ If the `type` is present, it will always be put (even if the `filename` is not p
 
 You can send queries via HTTP clients that support headers setting `stream.Readable` stream as body.
 
-Let's take a look at minimal example with [Got](https://github.com/sindresorhus/got) :
+Let's take a look at a minimal example with [Got](https://github.com/sindresorhus/got) :
 
 ```ts
 import { FormData } from '@typescord/form-data'; // const { FormData } = require('@typescord/form-data');

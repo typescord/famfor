@@ -45,7 +45,7 @@ export interface FormDataHeaders {
  * fd.append('another_field', Readable.from('My super field value'), { size: 20 });
  * fd.append('another_field', JSON.stringify({ content: 'another "another_field"' }), { type: 'application/json' });
  *
- * // a example with Got
+ * // an example with Got
  * got.post('https://your-super-site.com', {
  * 	 headers: fd.headers,
  *   body: fd.stream,
