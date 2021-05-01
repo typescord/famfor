@@ -1,7 +1,7 @@
 {
   "name": "@typescord/famfor",
   "description": "Simple, powerful, and fast multipart/form-data implementation for Node.js.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "prettier": "@typescord/prettier-config",
