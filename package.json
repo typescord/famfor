@@ -6,7 +6,7 @@
   "types": "build/index.d.ts",
   "prettier": "@typescord/prettier-config",
   "scripts": {
-    "prepublishOnly": "yarn build",
+    "prepack": "yarn build",
     "build": "rimraf build && tsc -p tsconfig.prod.json",
     "lint": "eslint . --ext ts",
     "lint-fix": "yarn lint --fix",
