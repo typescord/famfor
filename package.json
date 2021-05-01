@@ -28,31 +28,31 @@
     "url": "https://github.com/typescord/famfor/issues"
   },
   "dependencies": {
-    "mime-types": "2.1.29"
+    "mime-types": "2.1.30"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.21",
+    "@types/jest": "^26.0.23",
     "@types/mime-types": "^2.1.0",
-    "@types/node": "^14.14.35",
-    "@typescord/eslint-config": "^0.1.6",
-    "@typescord/mrm-preset": "^2.1.0",
+    "@types/node": "^15.0.1",
+    "@typescord/eslint-config": "^0.2.1",
+    "@typescord/mrm-preset": "^2.1.2",
     "@typescord/prettier-config": "^0.1.2",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-sonarjs": "^0.6.0",
-    "eslint-plugin-unicorn": "^28.0.2",
+    "eslint-plugin-sonarjs": "^0.7.0",
+    "eslint-plugin-unicorn": "^31.0.0",
     "jest": "^26.6.3",
-    "mrm": "^2.6.0",
+    "mrm": "^3.0.1",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
-    "ts-jest": "^26.5.4",
-    "typescript": "^4.2.3"
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
   },
   "jest": {
     "testEnvironment": "node",
