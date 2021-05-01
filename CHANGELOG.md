@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/typescord/famfor/compare/v0.1.1...v0.1.2) (2021-05-01)
+
+
+### Bug Fixes
+
+* use prepack instead of prepublishOnly ([4b622cf](https://www.github.com/typescord/famfor/commit/4b622cf4aaafcc46c860dc18e1e2e588f7267e96))
+
+
+### Documentation
+
+* correct imports ([1c67533](https://www.github.com/typescord/famfor/commit/1c67533d08b8b0ecdac2e40b111d909451585978))
+
 ### [0.1.1](https://www.github.com/typescord/famfor/compare/v0.1.0...v0.1.1) (2021-05-01)
 
 
