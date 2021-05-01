@@ -47,7 +47,7 @@ export interface FormDataHeaders {
  *
  * // an example with Got
  * got.post('https://your-super-site.com', {
- * 	 headers: fd.headers,
+ *   headers: fd.headers,
  *   body: fd.stream,
  * });
  * ```
