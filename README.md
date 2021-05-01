@@ -29,7 +29,7 @@ You can send queries via HTTP clients that support setting `stream.Readable` str
 Let's take a look at a minimal example with [Got](https://github.com/sindresorhus/got) :
 
 ```ts
-import { FormData } from '@typescord/form-data'; // const { FormData } = require('@typescord/form-data');
+import { FormData } from '@typescord/famfor'; // const { FormData } = require('@typescord/famfor');
 import got from 'got'; // const got = require('got');
 
 const fd = new FormData();
