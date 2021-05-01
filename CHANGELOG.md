@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/typescord/famfor/compare/v0.1.0...v0.1.1) (2021-05-01)
+
+
+### Bug Fixes
+
+* dist files ([fd2518d](https://www.github.com/typescord/famfor/commit/fd2518d874e8b127d2eadad53be799e03d078f92))
+
+
+### Documentation
+
+* **readme:** correct errors ([fb389ac](https://www.github.com/typescord/famfor/commit/fb389ac1f77cf218335b19a53d83da09f2512796))
+
 ## 0.1.0 (2021-04-27)
 
 
