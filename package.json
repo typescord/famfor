@@ -1,12 +1,12 @@
 {
   "name": "@typescord/famfor",
   "description": "Simple, powerful, and fast multipart/form-data implementation for Node.js.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "prettier": "@typescord/prettier-config",
   "scripts": {
-		"prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn build",
     "build": "rimraf build && tsc -p tsconfig.prod.json",
     "lint": "eslint . --ext ts",
     "lint-fix": "yarn lint --fix",
