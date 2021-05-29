@@ -137,11 +137,11 @@ export class FormData {
 			filename,
 			type,
 			size,
-			header: `${DASHES}${this.boundary}${CRLF}Content-Disposition: form-data; name="${name.replaceAll('"', '\\"')}"`,
+			header: `${DASHES}${this.boundary}${CRLF}Content-Disposition: form-data; name="${name.replace(/"/g, '\\"')}"`,
 		} as FormDataField;
 
 		if (field.filename) {
-			field.header += `; filename="${field.filename.replaceAll('"', '\\"')}"${CRLF}Content-Type: ${field.type}`;
+			field.header += `; filename="${field.filename.replace(/"/g, '\\"')}"${CRLF}Content-Type: ${field.type}`;
 		} else if (field.type) {
 			field.header += `${CRLF}Content-Type: ${field.type}`;
 		}
