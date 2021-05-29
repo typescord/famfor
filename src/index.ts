@@ -21,11 +21,6 @@ export interface FormDataField extends FormDataFieldOptions {
 	header: string;
 }
 
-export interface FormDataHeaders {
-	'Content-Type': string;
-	'Content-Length'?: string;
-}
-
 /**
  * Fast and simple Node.js multipart/form-data implementation.
  *
@@ -54,7 +49,7 @@ export interface FormDataHeaders {
  */
 export class FormData {
 	public readonly boundary = `----NodeJSFamforFormBoundary${randomBytes(14).toString('hex')}`;
-	public readonly headers: FormDataHeaders = {
+	public readonly headers: Record<string, string> = {
 		'Content-Type': `multipart/form-data; boundary=${this.boundary}`,
 	};
 
