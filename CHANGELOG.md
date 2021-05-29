@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/typescord/famfor/compare/v0.1.2...v0.1.3) (2021-05-29)
+
+
+### Bug Fixes
+
+* formdata headers' typing ([28d0dda](https://www.github.com/typescord/famfor/commit/28d0ddabf32ced977cf32b756a881bef3cf765fb))
+
+
+### Documentation
+
+* fix indentation ([6a9f83e](https://www.github.com/typescord/famfor/commit/6a9f83edabb6c4a37a37913ad2deddc1916122c4))
+
 ### [0.1.2](https://www.github.com/typescord/famfor/compare/v0.1.1...v0.1.2) (2021-05-01)
 
 
